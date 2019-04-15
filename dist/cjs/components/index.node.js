@@ -18,4 +18,6 @@ __export(require("./rtsp-parser"));
 __export(require("./rtsp-session"));
 __export(require("./tcp"));
 __export(require("./ws-sink"));
+var message_1 = require("./message");
+exports.MessageType = message_1.MessageType;
 //# sourceMappingURL=index.node.js.map

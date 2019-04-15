@@ -13,3 +13,4 @@ export * from './rtsp-parser';
 export * from './rtsp-session';
 export * from './tcp';
 export * from './ws-sink';
+export { MessageType } from './message';

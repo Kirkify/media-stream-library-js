@@ -12,4 +12,4 @@ export * from './onvifdepay';
 export * from './rtsp-parser';
 export * from './rtsp-session';
 export * from './ws-source';
-export * from './message';
+export { MessageType } from './message';

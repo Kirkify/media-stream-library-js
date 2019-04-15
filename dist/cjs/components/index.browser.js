@@ -17,5 +17,6 @@ __export(require("./onvifdepay"));
 __export(require("./rtsp-parser"));
 __export(require("./rtsp-session"));
 __export(require("./ws-source"));
-__export(require("./message"));
+var message_1 = require("./message");
+exports.MessageType = message_1.MessageType;
 //# sourceMappingURL=index.browser.js.map
